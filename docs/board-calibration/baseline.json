@@ -1,0 +1,125 @@
+{
+  "boardShell": {
+    "left": 0,
+    "top": 58,
+    "width": 390,
+    "height": 520,
+    "transform": "none",
+    "objectFit": "fill",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "0px none rgb(233, 200, 143)",
+    "zoom": "1"
+  },
+  "boardImage": {
+    "left": 0,
+    "top": 58,
+    "width": 390,
+    "height": 520,
+    "transform": "none",
+    "objectFit": "fill",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "0px none rgb(233, 200, 143)",
+    "zoom": "1"
+  },
+  "tokenPosition": {
+    "left": 247.3125,
+    "top": 452.625,
+    "width": 0,
+    "height": 0,
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "objectFit": "fill",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "0px none rgb(233, 200, 143)",
+    "zoom": "1"
+  },
+  "tokenCluster": {
+    "left": 240.29249572753906,
+    "top": 445.6050109863281,
+    "width": 0,
+    "height": 0,
+    "transform": "matrix(1, 0, 0, 1, -7.02, -7.02)",
+    "objectFit": "fill",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "0px none rgb(233, 200, 143)",
+    "zoom": "1"
+  },
+  "tokenAnchor": {
+    "left": 232.88624572753906,
+    "top": 438.1987609863281,
+    "width": 14.8125,
+    "height": 14.8125,
+    "transform": "none",
+    "objectFit": "fill",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "0px none rgb(233, 200, 143)",
+    "zoom": "1"
+  },
+  "tokenVisual": {
+    "left": 232.88624572753906,
+    "top": 438.1987609863281,
+    "width": 14.8125,
+    "height": 14.8125,
+    "transform": "none",
+    "objectFit": "fill",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "2px solid rgb(248, 221, 164)",
+    "zoom": "1"
+  },
+  "ancestors": [
+    {
+      "tag": "IMG",
+      "class": "board-art",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "board  ",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    },
+    {
+      "tag": "SECTION",
+      "class": "board-section",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "game-layout",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    },
+    {
+      "tag": "MAIN",
+      "class": "game-shell",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    },
+    {
+      "tag": "BODY",
+      "class": "game-active",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    },
+    {
+      "tag": "HTML",
+      "class": "",
+      "transform": "none",
+      "zoom": "1",
+      "perspective": "none"
+    }
+  ]
+}

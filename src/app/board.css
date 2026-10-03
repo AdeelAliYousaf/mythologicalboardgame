@@ -1,0 +1,84 @@
+/* Every layer occupies the raster's exact borderless artwork rectangle. */
+.board {
+  --token-size: clamp(12px, 3.8cqw, 30px);
+  position: relative;
+  aspect-ratio: 1170 / 1560;
+  padding: 0;
+  border: 0;
+}
+.board .board-art,
+.board-token-layer,
+.board-atmosphere-layer,
+.board-effect-layer,
+.board-debug-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.board .board-art { display: block; max-width: none; max-height: none; object-fit: fill; }
+.board-atmosphere-layer { z-index: 1; pointer-events: none; }
+.board-token-layer { z-index: 4; pointer-events: none; }
+.board-effect-layer { z-index: 5; pointer-events: none; }
+.board-debug-layer { z-index: 6; pointer-events: none; }
+
+/* CSS owns the anchor translation. Motion is confined to the visual child. */
+.token-anchor {
+  position: absolute;
+  width: var(--token-size);
+  height: var(--token-size);
+  transform: translate(-50%, -50%);
+  transition: left .24s cubic-bezier(.22, 1, .36, 1), top .24s cubic-bezier(.22, 1, .36, 1);
+}
+.token-cluster {
+  width: 100%;
+  height: 100%;
+  transform: translate(calc(var(--cluster-x, 0) * var(--token-size)), calc(var(--cluster-y, 0) * var(--token-size)));
+}
+.token-visual {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #f8dda4;
+  border-radius: 50%;
+  background: var(--token-color);
+  display: grid;
+  place-items: center;
+  color: #26170b;
+  font: bold clamp(7px, 1.2cqw, 12px) Cinzel, serif;
+  box-shadow: 2px 4px 8px #000b;
+  text-shadow: 0 1px #fff5;
+  transform-origin: 50% 50%;
+}
+.token-active { outline: 2px solid #f9dc8f; outline-offset: 3px; }
+.token-center-dot { position: absolute; left: 50%; top: 50%; width: 4px; height: 4px; transform: translate(-50%, -50%); border-radius: 50%; background: #ff00ff; }
+.board-instant .token-anchor { transition: none; }
+.board-debug-grid { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.board-debug-grid line { stroke: #00ffff; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.board-debug-grid .debug-grid-boundary { fill: none; stroke: #ff0000; stroke-width: 2px; vector-effect: non-scaling-stroke; }
+.board-debug-grid .debug-crosshair { fill: none; stroke: #ffff00; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.board-debug-grid text { fill: white; text-anchor: middle; font: bold 22px Arial, sans-serif; paint-order: stroke; stroke: #000; stroke-width: 2px; }
+.cell-center { position: absolute; width: 0; height: 0; }
+.board-debug-readout { position: fixed; z-index: 100; bottom: 8px; right: 8px; max-width: min(440px, calc(100vw - 16px)); max-height: 240px; overflow: auto; padding: 8px; color: white; background: #090909f2; border: 1px solid #00ffff; font: 11px/1.5 Arial, sans-serif; }
+.board-debug-readout summary { cursor: pointer; font-weight: bold; }
+.board-debug-readout table { border-collapse: collapse; margin-top: 5px; }
+.board-debug-readout th, .board-debug-readout td { padding: 2px 4px; text-align: right; }
+.board-debug-readout th:first-child { text-align: left; }
+@media (prefers-reduced-motion: reduce) { .token-anchor { transition: none; } }
+
+/* Isolated diagnostic surface, reachable only when test tooling is enabled. */
+.board-test-page { min-height: 100vh; }
+.board-test-camera { width: 100%; margin: 0; display: grid; place-items: center; transform-origin: center; }
+.board-test-controls { position: relative; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; }
+.board-test-controls label { display: flex; align-items: center; gap: 5px; }
+.board-test-controls input { width: 60px; }
+
+/* The flying artwork owns this transform; canonical gameplay layers stay intact. */
+.board-entry-art { position: fixed; z-index: 50; display: block; max-width: none; max-height: none; object-fit: fill; pointer-events: none; transform-origin: 50% 50%; will-change: transform; }
+.board-entering .board { visibility: hidden; }
+.game-header,.hud,.actions { transition: opacity .2s ease-out; }
+.board-entering .game-header,.board-entering .hud,.board-entering .actions { opacity: 0; }
+@media(prefers-reduced-motion:reduce) { .game-header,.hud,.actions { transition: none; } }

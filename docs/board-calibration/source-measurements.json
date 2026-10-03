@@ -1,0 +1,69 @@
+{
+  "source": "references/board.webp",
+  "sha256": "69b3137ef83efb0648818ccc3ada9946b8d2b98df1f5dd5dd85009e9e263f27a",
+  "imageWidth": 1170,
+  "imageHeight": 1560,
+  "columnEdgesPx": [
+    62,
+    174,
+    268,
+    355,
+    450,
+    591,
+    733,
+    829,
+    914,
+    997,
+    1107
+  ],
+  "rowEdgesPx": [
+    219,
+    300,
+    427,
+    558,
+    648,
+    773,
+    917,
+    1013,
+    1131,
+    1252,
+    1353
+  ],
+  "boundsPx": {
+    "left": 62,
+    "top": 219,
+    "right": 1107,
+    "bottom": 1353
+  },
+  "boundsNormalized": {
+    "left": 0.05299145299145299,
+    "top": 0.14038461538461539,
+    "right": 0.9461538461538461,
+    "bottom": 0.8673076923076923
+  },
+  "columnWidthsPx": [
+    112,
+    94,
+    87,
+    95,
+    141,
+    142,
+    96,
+    85,
+    83,
+    110
+  ],
+  "rowHeightsPx": [
+    81,
+    127,
+    131,
+    90,
+    125,
+    144,
+    96,
+    118,
+    121,
+    101
+  ],
+  "method": "Interior boundaries: peak median local bright-line contrast across the raster. Outer boundaries: peak absolute median first difference. Integer sample positions identify the strongest boundary samples; antialiasing is approximately 1\u20133 source pixels."
+}

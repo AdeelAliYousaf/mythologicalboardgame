@@ -1,0 +1,5 @@
+# Game rules
+
+Two to four named players begin on square 1 with three Fate Points each. On each turn, roll two fair six-sided dice and choose one value. Move that many spaces, one square at a time. Finishing requires an exact landing on square 100. Finish order is recorded, and the first finisher is the winner. Finished travelers stay at 100 and leave the turn rotation. The race ends when only one traveler remains unfinished. Results show Winner for two players, Winner and 2nd for three, and Winner, 2nd, and 3rd for four. Choosing a die that would exceed 100 leaves the traveler on their current square and ends the turn.
+
+Landing on a ladder automatically climbs to its printed upper end, with no confirmation or Fate cost. Dragon spaces reveal the card matching the dragon symbol printed on that square, moving the player back by its printed penalty, with square 1 as the minimum. Hero spaces give the corresponding card. Fate can reroll both dice before choosing or avoid a Dragon. Frexia avoids one Dragon. Loki can make an opponent suffer the same Dragon penalty. Thor steals one Hero card from another player.

@@ -1,0 +1,6914 @@
+[
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 492.1666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 492.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 492.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 490.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "expectedX": 172.5496794871795,
+    "expectedY": 319.10206330128204,
+    "maxX": 0.0028044871795032122,
+    "maxY": 0.008313301282043994,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "boardImage": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "tokenLayer": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "debugCenter": {
+        "left": 172.546875,
+        "top": 319.09375,
+        "width": 0,
+        "height": 0,
+        "centerX": 172.546875,
+        "centerY": 319.09375
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 166.546875,
+            "top": 313.09375,
+            "width": 12,
+            "height": 12,
+            "centerX": 172.546875,
+            "centerY": 319.09375
+          },
+          "visual": {
+            "left": 166.546875,
+            "top": 313.09375,
+            "width": 12,
+            "height": 12,
+            "centerX": 172.546875,
+            "centerY": 319.09375
+          },
+          "dot": {
+            "left": 170.546875,
+            "top": 317.09375,
+            "width": 4,
+            "height": 4,
+            "centerX": 172.546875,
+            "centerY": 319.09375
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -6, -6)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 492.1666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 492.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 492.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 490.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 492.1666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 492.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 492.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 490.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": -15.149999999999999,
+    "expectedY": 553.125,
+    "maxX": 0.007030105590821734,
+    "maxY": 0.014068603515625,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": -15.157032012939453,
+        "top": 553.1109619140625,
+        "width": 0,
+        "height": 0,
+        "centerX": -15.157032012939453,
+        "centerY": 553.1109619140625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": -25.155467987060547,
+            "top": 543.1124877929688,
+            "width": 19.996875762939453,
+            "height": 19.99688720703125,
+            "centerX": -15.15703010559082,
+            "centerY": 553.1109313964844
+          },
+          "visual": {
+            "left": -25.155467987060547,
+            "top": 543.1124877929688,
+            "width": 19.996875762939453,
+            "height": 19.99688720703125,
+            "centerX": -15.15703010559082,
+            "centerY": 553.1109313964844
+          },
+          "dot": {
+            "left": -17.85702896118164,
+            "top": 550.4109497070312,
+            "width": 5.399997711181641,
+            "height": 5.4000244140625,
+            "centerX": -15.15703010559082,
+            "centerY": 553.1109619140625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 31,
+      "y": -22
+    },
+    "expectedX": 15.850000000000001,
+    "expectedY": 531.125,
+    "maxX": 0.007030105590821734,
+    "maxY": 0.014068603515625,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "boardImage": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "tokenLayer": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "debugCenter": {
+        "left": 15.842967987060547,
+        "top": 531.1109619140625,
+        "width": 0,
+        "height": 0,
+        "centerX": 15.842967987060547,
+        "centerY": 531.1109619140625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 5.844532012939453,
+            "top": 521.1124877929688,
+            "width": 19.996875762939453,
+            "height": 19.99688720703125,
+            "centerX": 15.84296989440918,
+            "centerY": 531.1109313964844
+          },
+          "visual": {
+            "left": 5.844532012939453,
+            "top": 521.1124877929688,
+            "width": 19.996875762939453,
+            "height": 19.99688720703125,
+            "centerX": 15.84296989440918,
+            "centerY": 531.1109313964844
+          },
+          "dot": {
+            "left": 13.14297103881836,
+            "top": 528.4109497070312,
+            "width": 5.399997711181641,
+            "height": 5.4000244140625,
+            "centerX": 15.84296989440918,
+            "centerY": 531.1109619140625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 31, -22)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.2,
+      "x": -18,
+      "y": 27
+    },
+    "expectedX": -9.80001525878906,
+    "expectedY": 554,
+    "maxX": 0.006247711181643467,
+    "maxY": 0.012481689453125,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "boardImage": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "tokenLayer": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "debugCenter": {
+        "left": -9.806262969970703,
+        "top": 553.987548828125,
+        "width": 0,
+        "height": 0,
+        "centerX": -9.806262969970703,
+        "centerY": 553.987548828125
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": -18.693763732910156,
+            "top": 545.1000366210938,
+            "width": 17.775001525878906,
+            "height": 17.77496337890625,
+            "centerX": -9.806262969970703,
+            "centerY": 553.9875183105469
+          },
+          "visual": {
+            "left": -18.693763732910156,
+            "top": 545.1000366210938,
+            "width": 17.775001525878906,
+            "height": 17.77496337890625,
+            "centerX": -9.806262969970703,
+            "centerY": 553.9875183105469
+          },
+          "dot": {
+            "left": -12.20626449584961,
+            "top": 551.5875244140625,
+            "width": 4.8000030517578125,
+            "height": 4.79998779296875,
+            "centerX": -9.806262969970703,
+            "centerY": 553.9875183105469
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.2, 0, 0, 1.2, -18, 27)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "motion-scale",
+    "expectedX": 39.333333333333336,
+    "expectedY": 492.1666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 1,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 492.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 492.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 484.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "visual": {
+            "left": 28.959375381469727,
+            "top": 481.7875061035156,
+            "width": 20.73750114440918,
+            "height": 20.73748779296875,
+            "centerX": 39.328125953674316,
+            "centerY": 492.15625
+          },
+          "dot": {
+            "left": 36.52812576293945,
+            "top": 489.35626220703125,
+            "width": 5.599998474121094,
+            "height": 5.5999755859375,
+            "centerX": 39.328125,
+            "centerY": 492.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "matrix(1.4, 0, 0, 1.4, 0, 0)"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "expectedX": 334.97936698717945,
+    "expectedY": 291.90795272435895,
+    "maxX": 0.010616987179446369,
+    "maxY": 0.001702724358949581,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "boardImage": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "tokenLayer": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "debugCenter": {
+        "left": 334.96875,
+        "top": 291.90625,
+        "width": 0,
+        "height": 0,
+        "centerX": 334.96875,
+        "centerY": 291.90625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 328.96875,
+            "top": 285.90625,
+            "width": 12,
+            "height": 12,
+            "centerX": 334.96875,
+            "centerY": 291.90625
+          },
+          "visual": {
+            "left": 328.96875,
+            "top": 285.90625,
+            "width": 12,
+            "height": 12,
+            "centerX": 334.96875,
+            "centerY": 291.90625
+          },
+          "dot": {
+            "left": 332.96875,
+            "top": 289.90625,
+            "width": 4,
+            "height": 4,
+            "centerX": 334.96875,
+            "centerY": 291.90625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -6, -6)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 283.2,
+    "expectedY": 503.17499999999995,
+    "maxX": 0.007022094726551131,
+    "maxY": 0.014050292968704525,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 283.1929626464844,
+        "top": 503.16094970703125,
+        "width": 0,
+        "height": 0,
+        "centerX": 283.1929626464844,
+        "centerY": 503.16094970703125
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 273.1945495605469,
+            "top": 493.16253662109375,
+            "width": 19.996856689453125,
+            "height": 19.996826171875,
+            "centerX": 283.19297790527344,
+            "centerY": 503.16094970703125
+          },
+          "visual": {
+            "left": 273.1945495605469,
+            "top": 493.16253662109375,
+            "width": 19.996856689453125,
+            "height": 19.996826171875,
+            "centerX": 283.19297790527344,
+            "centerY": 503.16094970703125
+          },
+          "dot": {
+            "left": 280.49298095703125,
+            "top": 500.4609375,
+            "width": 5.399993896484375,
+            "height": 5.4000244140625,
+            "centerX": 283.19297790527344,
+            "centerY": 503.16094970703125
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 31,
+      "y": -22
+    },
+    "expectedX": 314.2,
+    "expectedY": 481.17499999999995,
+    "maxX": 0.007022094726551131,
+    "maxY": 0.014050292968704525,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "boardImage": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "tokenLayer": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "debugCenter": {
+        "left": 314.1929626464844,
+        "top": 481.16094970703125,
+        "width": 0,
+        "height": 0,
+        "centerX": 314.1929626464844,
+        "centerY": 481.16094970703125
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 304.1945495605469,
+            "top": 471.16253662109375,
+            "width": 19.996856689453125,
+            "height": 19.996826171875,
+            "centerX": 314.19297790527344,
+            "centerY": 481.16094970703125
+          },
+          "visual": {
+            "left": 304.1945495605469,
+            "top": 471.16253662109375,
+            "width": 19.996856689453125,
+            "height": 19.996826171875,
+            "centerX": 314.19297790527344,
+            "centerY": 481.16094970703125
+          },
+          "dot": {
+            "left": 311.49298095703125,
+            "top": 478.4609375,
+            "width": 5.399993896484375,
+            "height": 5.4000244140625,
+            "centerX": 314.19297790527344,
+            "centerY": 481.16094970703125
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 31, -22)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.2,
+      "x": -18,
+      "y": 27
+    },
+    "expectedX": 255.39998474121091,
+    "expectedY": 509.59999999999997,
+    "maxX": 0.006239318847633513,
+    "maxY": 0.012506103515590894,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "boardImage": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "tokenLayer": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "debugCenter": {
+        "left": 255.3937530517578,
+        "top": 509.5875244140625,
+        "width": 0,
+        "height": 0,
+        "centerX": 255.3937530517578,
+        "centerY": 509.5875244140625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 246.50624084472656,
+            "top": 500.70001220703125,
+            "width": 17.775009155273438,
+            "height": 17.77496337890625,
+            "centerX": 255.39374542236328,
+            "centerY": 509.5874938964844
+          },
+          "visual": {
+            "left": 246.50624084472656,
+            "top": 500.70001220703125,
+            "width": 17.775009155273438,
+            "height": 17.77496337890625,
+            "centerX": 255.39374542236328,
+            "centerY": 509.5874938964844
+          },
+          "dot": {
+            "left": 252.99375915527344,
+            "top": 507.1875305175781,
+            "width": 4.8000030517578125,
+            "height": 4.79998779296875,
+            "centerX": 255.39376068115234,
+            "centerY": 509.5875244140625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.2, 0, 0, 1.2, -18, 27)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "motion-scale",
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 249.95938110351562,
+            "top": 444.7875061035156,
+            "width": 20.73748779296875,
+            "height": 20.73748779296875,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 257.52813720703125,
+            "top": 452.35626220703125,
+            "width": 5.5999755859375,
+            "height": 5.5999755859375,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "matrix(1.4, 0, 0, 1.4, 0, 0)"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 379.6666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 379.65625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 379.65625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 377.65625,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "expectedX": 172.5496794871795,
+    "expectedY": 236.41726762820514,
+    "maxX": 0.0028044871795032122,
+    "maxY": 0.011017628205138408,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "boardImage": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "tokenLayer": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "debugCenter": {
+        "left": 172.546875,
+        "top": 236.40625,
+        "width": 0,
+        "height": 0,
+        "centerX": 172.546875,
+        "centerY": 236.40625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 166.546875,
+            "top": 230.40625,
+            "width": 12,
+            "height": 12,
+            "centerX": 172.546875,
+            "centerY": 236.40625
+          },
+          "visual": {
+            "left": 166.546875,
+            "top": 230.40625,
+            "width": 12,
+            "height": 12,
+            "centerX": 172.546875,
+            "centerY": 236.40625
+          },
+          "dot": {
+            "left": 170.546875,
+            "top": 234.40625,
+            "width": 4,
+            "height": 4,
+            "centerX": 172.546875,
+            "centerY": 236.40625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -6, -6)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 379.6666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 379.65625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 379.65625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 377.65625,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 379.6666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 379.65625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 379.65625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 377.65625,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": -15.149999999999999,
+    "expectedY": 401.25,
+    "maxX": 0.007030105590821734,
+    "maxY": 0.0140533447265625,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": -15.157032012939453,
+        "top": 401.2359313964844,
+        "width": 0,
+        "height": 0,
+        "centerX": -15.157032012939453,
+        "centerY": 401.2359313964844
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": -25.155467987060547,
+            "top": 391.2375183105469,
+            "width": 19.996875762939453,
+            "height": 19.996856689453125,
+            "centerX": -15.15703010559082,
+            "centerY": 401.23594665527344
+          },
+          "visual": {
+            "left": -25.155467987060547,
+            "top": 391.2375183105469,
+            "width": 19.996875762939453,
+            "height": 19.996856689453125,
+            "centerX": -15.15703010559082,
+            "centerY": 401.23594665527344
+          },
+          "dot": {
+            "left": -17.85702896118164,
+            "top": 398.53594970703125,
+            "width": 5.399997711181641,
+            "height": 5.399993896484375,
+            "centerX": -15.15703010559082,
+            "centerY": 401.23594665527344
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 31,
+      "y": -22
+    },
+    "expectedX": 15.850000000000001,
+    "expectedY": 379.25,
+    "maxX": 0.007030105590821734,
+    "maxY": 0.0140533447265625,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "boardImage": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "tokenLayer": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "debugCenter": {
+        "left": 15.842967987060547,
+        "top": 379.2359313964844,
+        "width": 0,
+        "height": 0,
+        "centerX": 15.842967987060547,
+        "centerY": 379.2359313964844
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 5.844532012939453,
+            "top": 369.2375183105469,
+            "width": 19.996875762939453,
+            "height": 19.996856689453125,
+            "centerX": 15.84296989440918,
+            "centerY": 379.23594665527344
+          },
+          "visual": {
+            "left": 5.844532012939453,
+            "top": 369.2375183105469,
+            "width": 19.996875762939453,
+            "height": 19.996856689453125,
+            "centerX": 15.84296989440918,
+            "centerY": 379.23594665527344
+          },
+          "dot": {
+            "left": 13.14297103881836,
+            "top": 376.53594970703125,
+            "width": 5.399997711181641,
+            "height": 5.399993896484375,
+            "centerX": 15.84296989440918,
+            "centerY": 379.23594665527344
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 31, -22)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.2,
+      "x": -18,
+      "y": 27
+    },
+    "expectedX": -9.80001525878906,
+    "expectedY": 419,
+    "maxX": 0.006247711181643467,
+    "maxY": 0.012481689453125,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "boardImage": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "tokenLayer": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "debugCenter": {
+        "left": -9.806262969970703,
+        "top": 418.9875183105469,
+        "width": 0,
+        "height": 0,
+        "centerX": -9.806262969970703,
+        "centerY": 418.9875183105469
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": -18.693763732910156,
+            "top": 410.1000061035156,
+            "width": 17.775001525878906,
+            "height": 17.7750244140625,
+            "centerX": -9.806262969970703,
+            "centerY": 418.9875183105469
+          },
+          "visual": {
+            "left": -18.693763732910156,
+            "top": 410.1000061035156,
+            "width": 17.775001525878906,
+            "height": 17.7750244140625,
+            "centerX": -9.806262969970703,
+            "centerY": 418.9875183105469
+          },
+          "dot": {
+            "left": -12.20626449584961,
+            "top": 416.5875244140625,
+            "width": 4.8000030517578125,
+            "height": 4.79998779296875,
+            "centerX": -9.806262969970703,
+            "centerY": 418.9875183105469
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.2, 0, 0, 1.2, -18, 27)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "motion-scale",
+    "expectedX": 39.333333333333336,
+    "expectedY": 379.6666666666667,
+    "maxX": 0.005208333333335702,
+    "maxY": 0.010416666666685614,
+    "geometry": {
+      "square": 40,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 379.65625,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 379.65625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 372.25,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "visual": {
+            "left": 28.959375381469727,
+            "top": 369.2875061035156,
+            "width": 20.73750114440918,
+            "height": 20.73748779296875,
+            "centerX": 39.328125953674316,
+            "centerY": 379.65625
+          },
+          "dot": {
+            "left": 36.52812576293945,
+            "top": 376.85626220703125,
+            "width": 5.599998474121094,
+            "height": 5.5999755859375,
+            "centerX": 39.328125,
+            "centerY": 379.65625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "matrix(1.4, 0, 0, 1.4, 0, 0)"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "expectedX": 334.97936698717945,
+    "expectedY": 120.65855368589743,
+    "maxX": 0.010616987179446369,
+    "maxY": 0.002303685897430796,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "boardImage": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "tokenLayer": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "debugCenter": {
+        "left": 334.96875,
+        "top": 120.65625,
+        "width": 0,
+        "height": 0,
+        "centerX": 334.96875,
+        "centerY": 120.65625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 328.96875,
+            "top": 114.65625,
+            "width": 12,
+            "height": 12,
+            "centerX": 334.96875,
+            "centerY": 120.65625
+          },
+          "visual": {
+            "left": 328.96875,
+            "top": 114.65625,
+            "width": 12,
+            "height": 12,
+            "centerX": 334.96875,
+            "centerY": 120.65625
+          },
+          "dot": {
+            "left": 332.96875,
+            "top": 118.65625,
+            "width": 4,
+            "height": 4,
+            "centerX": 334.96875,
+            "centerY": 120.65625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -6, -6)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 283.2,
+    "expectedY": 188.625,
+    "maxX": 0.007022094726551131,
+    "maxY": 0.01406097412109375,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 283.1929626464844,
+        "top": 188.61094665527344,
+        "width": 0,
+        "height": 0,
+        "centerX": 283.1929626464844,
+        "centerY": 188.61094665527344
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 273.1945495605469,
+            "top": 178.6125030517578,
+            "width": 19.996856689453125,
+            "height": 19.996871948242188,
+            "centerX": 283.19297790527344,
+            "centerY": 188.6109390258789
+          },
+          "visual": {
+            "left": 273.1945495605469,
+            "top": 178.6125030517578,
+            "width": 19.996856689453125,
+            "height": 19.996871948242188,
+            "centerX": 283.19297790527344,
+            "centerY": 188.6109390258789
+          },
+          "dot": {
+            "left": 280.49298095703125,
+            "top": 185.9109344482422,
+            "width": 5.399993896484375,
+            "height": 5.4000091552734375,
+            "centerX": 283.19297790527344,
+            "centerY": 188.6109390258789
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 31,
+      "y": -22
+    },
+    "expectedX": 314.2,
+    "expectedY": 166.625,
+    "maxX": 0.007022094726551131,
+    "maxY": 0.01406097412109375,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "boardImage": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "tokenLayer": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "debugCenter": {
+        "left": 314.1929626464844,
+        "top": 166.61094665527344,
+        "width": 0,
+        "height": 0,
+        "centerX": 314.1929626464844,
+        "centerY": 166.61094665527344
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 304.1945495605469,
+            "top": 156.6125030517578,
+            "width": 19.996856689453125,
+            "height": 19.996871948242188,
+            "centerX": 314.19297790527344,
+            "centerY": 166.6109390258789
+          },
+          "visual": {
+            "left": 304.1945495605469,
+            "top": 156.6125030517578,
+            "width": 19.996856689453125,
+            "height": 19.996871948242188,
+            "centerX": 314.19297790527344,
+            "centerY": 166.6109390258789
+          },
+          "dot": {
+            "left": 311.49298095703125,
+            "top": 163.9109344482422,
+            "width": 5.399993896484375,
+            "height": 5.4000091552734375,
+            "centerX": 314.19297790527344,
+            "centerY": 166.6109390258789
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 31, -22)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.2,
+      "x": -18,
+      "y": 27
+    },
+    "expectedX": 255.39998474121091,
+    "expectedY": 230,
+    "maxX": 0.006239318847633513,
+    "maxY": 0.01248931884765625,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "boardImage": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "tokenLayer": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "debugCenter": {
+        "left": 255.3937530517578,
+        "top": 229.9875030517578,
+        "width": 0,
+        "height": 0,
+        "centerX": 255.3937530517578,
+        "centerY": 229.9875030517578
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 246.50624084472656,
+            "top": 221.10000610351562,
+            "width": 17.775009155273438,
+            "height": 17.775009155273438,
+            "centerX": 255.39374542236328,
+            "centerY": 229.98751068115234
+          },
+          "visual": {
+            "left": 246.50624084472656,
+            "top": 221.10000610351562,
+            "width": 17.775009155273438,
+            "height": 17.775009155273438,
+            "centerX": 255.39374542236328,
+            "centerY": 229.98751068115234
+          },
+          "dot": {
+            "left": 252.99375915527344,
+            "top": 227.58750915527344,
+            "width": 4.8000030517578125,
+            "height": 4.8000030517578125,
+            "centerX": 255.39376068115234,
+            "centerY": 229.98751068115234
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.2, 0, 0, 1.2, -18, 27)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "motion-scale",
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 249.95938110351562,
+            "top": 211.78750610351562,
+            "width": 20.73748779296875,
+            "height": 20.73748779296875,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 257.52813720703125,
+            "top": 219.3562469482422,
+            "width": 5.5999755859375,
+            "height": 5.600006103515625,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "matrix(1.4, 0, 0, 1.4, 0, 0)"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 144.5,
+    "maxX": 0.005208333333335702,
+    "maxY": 0,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 144.5,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 144.5
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 142.5,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "expectedX": 172.5496794871795,
+    "expectedY": 63.57542067307692,
+    "maxX": 0.0028044871795032122,
+    "maxY": 0.012920673076919797,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "boardImage": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "tokenLayer": {
+        "left": 143.640625,
+        "top": 0,
+        "width": 286.640625,
+        "height": 382.1875,
+        "centerX": 286.9609375,
+        "centerY": 191.09375
+      },
+      "debugCenter": {
+        "left": 172.546875,
+        "top": 63.5625,
+        "width": 0,
+        "height": 0,
+        "centerX": 172.546875,
+        "centerY": 63.5625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 166.546875,
+            "top": 57.5625,
+            "width": 12,
+            "height": 12,
+            "centerX": 172.546875,
+            "centerY": 63.5625
+          },
+          "visual": {
+            "left": 166.546875,
+            "top": 57.5625,
+            "width": 12,
+            "height": 12,
+            "centerX": 172.546875,
+            "centerY": 63.5625
+          },
+          "dot": {
+            "left": 170.546875,
+            "top": 61.5625,
+            "width": 4,
+            "height": 4,
+            "centerX": 172.546875,
+            "centerY": 63.5625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -6, -6)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "resize",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 144.5,
+    "maxX": 0.005208333333335702,
+    "maxY": 0,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 144.5,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 144.5
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 142.5,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": 39.333333333333336,
+    "expectedY": 144.5,
+    "maxX": 0.005208333333335702,
+    "maxY": 0,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 144.5,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 144.5
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "visual": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "dot": {
+            "left": 37.328125,
+            "top": 142.5,
+            "width": 4,
+            "height": 4,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 0,
+      "y": 0
+    },
+    "expectedX": -15.149999999999999,
+    "expectedY": 83.77499999999999,
+    "maxX": 0.007030105590821734,
+    "maxY": 0.0000015258789147765128,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": -68.25,
+        "top": -33,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": -15.157032012939453,
+        "top": 83.7750015258789,
+        "width": 0,
+        "height": 0,
+        "centerX": -15.157032012939453,
+        "centerY": 83.7750015258789
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": -25.155467987060547,
+            "top": 73.77656555175781,
+            "width": 19.996875762939453,
+            "height": 19.996871948242188,
+            "centerX": -15.15703010559082,
+            "centerY": 83.7750015258789
+          },
+          "visual": {
+            "left": -25.155467987060547,
+            "top": 73.77656555175781,
+            "width": 19.996875762939453,
+            "height": 19.996871948242188,
+            "centerX": -15.15703010559082,
+            "centerY": 83.7750015258789
+          },
+          "dot": {
+            "left": -17.85702896118164,
+            "top": 81.07500457763672,
+            "width": 5.399997711181641,
+            "height": 5.399993896484375,
+            "centerX": -15.15703010559082,
+            "centerY": 83.7750015258789
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.35,
+      "x": 31,
+      "y": -22
+    },
+    "expectedX": 15.850000000000001,
+    "expectedY": 61.77499999999999,
+    "maxX": 0.007030105590821734,
+    "maxY": 0.0000015258789147765128,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "boardImage": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "tokenLayer": {
+        "left": -37.25,
+        "top": -55,
+        "width": 526.5,
+        "height": 702,
+        "centerX": 226,
+        "centerY": 296
+      },
+      "debugCenter": {
+        "left": 15.842967987060547,
+        "top": 61.775001525878906,
+        "width": 0,
+        "height": 0,
+        "centerX": 15.842967987060547,
+        "centerY": 61.775001525878906
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 5.844532012939453,
+            "top": 51.77656555175781,
+            "width": 19.996875762939453,
+            "height": 19.996871948242188,
+            "centerX": 15.84296989440918,
+            "centerY": 61.775001525878906
+          },
+          "visual": {
+            "left": 5.844532012939453,
+            "top": 51.77656555175781,
+            "width": 19.996875762939453,
+            "height": 19.996871948242188,
+            "centerX": 15.84296989440918,
+            "centerY": 61.775001525878906
+          },
+          "dot": {
+            "left": 13.14297103881836,
+            "top": 59.07500457763672,
+            "width": 5.399997711181641,
+            "height": 5.399993896484375,
+            "centerX": 15.84296989440918,
+            "centerY": 61.775001525878906
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.35, 0, 0, 1.35, 31, -22)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "camera",
+    "camera": {
+      "zoom": 1.2,
+      "x": -18,
+      "y": 27
+    },
+    "expectedX": -9.80001525878906,
+    "expectedY": 136.8,
+    "maxX": 0.006247711181643467,
+    "maxY": 0.0000030517578011313162,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "boardImage": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "tokenLayer": {
+        "left": -57.00001525878906,
+        "top": 33,
+        "width": 468,
+        "height": 624,
+        "centerX": 176.99998474121094,
+        "centerY": 345
+      },
+      "debugCenter": {
+        "left": -9.806262969970703,
+        "top": 136.8000030517578,
+        "width": 0,
+        "height": 0,
+        "centerX": -9.806262969970703,
+        "centerY": 136.8000030517578
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": -18.693763732910156,
+            "top": 127.91250610351562,
+            "width": 17.775001525878906,
+            "height": 17.774993896484375,
+            "centerX": -9.806262969970703,
+            "centerY": 136.8000030517578
+          },
+          "visual": {
+            "left": -18.693763732910156,
+            "top": 127.91250610351562,
+            "width": 17.775001525878906,
+            "height": 17.774993896484375,
+            "centerX": -9.806262969970703,
+            "centerY": 136.8000030517578
+          },
+          "dot": {
+            "left": -12.20626449584961,
+            "top": 134.39999389648438,
+            "width": 4.8000030517578125,
+            "height": 4.800018310546875,
+            "centerX": -9.806262969970703,
+            "centerY": 136.8000030517578
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1.2, 0, 0, 1.2, -18, 27)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "motion-scale",
+    "expectedX": 39.333333333333336,
+    "expectedY": 144.5,
+    "maxX": 0.005208333333335702,
+    "maxY": 0,
+    "geometry": {
+      "square": 100,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 39.328125,
+        "top": 144.5,
+        "width": 0,
+        "height": 0,
+        "centerX": 39.328125,
+        "centerY": 144.5
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 31.921875,
+            "top": 137.09375,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "visual": {
+            "left": 28.959375381469727,
+            "top": 134.13125610351562,
+            "width": 20.73750114440918,
+            "height": 20.73748779296875,
+            "centerX": 39.328125953674316,
+            "centerY": 144.5
+          },
+          "dot": {
+            "left": 36.52812576293945,
+            "top": 141.6999969482422,
+            "width": 5.599998474121094,
+            "height": 5.600006103515625,
+            "centerX": 39.328125,
+            "centerY": 144.5
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "matrix(1.4, 0, 0, 1.4, 0, 0)"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 1,
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 2,
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, 0)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 3,
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 437.3760070800781,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 444.7822570800781
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 442.7822570800781,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 444.7822570800781
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, -10.374)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 452.93701171875,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 460.34326171875
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 458.34326171875,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 460.34326171875
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, 5.187)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 452.93701171875,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 460.34326171875
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 458.34326171875,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 460.34326171875
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, 5.187)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 4,
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 438.8580017089844,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 446.2642517089844
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 444.2642517089844,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 446.2642517089844
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, -8.892)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 438.8580017089844,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 446.2642517089844
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 444.2642517089844,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 446.2642517089844
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, -8.892)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 456.6419982910156,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 464.0482482910156
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 462.0482482910156,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 464.0482482910156
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, 8.892)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 456.6419982910156,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 464.0482482910156
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 462.0482482910156,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 464.0482482910156
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, 8.892)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 1,
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 2,
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, 0)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 3,
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 204.37600708007812,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 211.78225708007812
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 209.78225708007812,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 211.78225708007812
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, -10.374)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 219.93699645996094,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 227.34324645996094
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 225.34324645996094,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 227.34324645996094
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, 5.187)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 219.93699645996094,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 227.34324645996094
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 225.34324645996094,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 227.34324645996094
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, 5.187)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "cluster",
+    "count": 4,
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 205.85800170898438,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 213.26425170898438
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 211.26425170898438,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 213.26425170898438
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, -8.892)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 205.85800170898438,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 213.26425170898438
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 211.26425170898438,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 213.26425170898438
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, -8.892)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 244.02987670898438,
+            "top": 223.64199829101562,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 251.43612670898438,
+            "centerY": 231.04824829101562
+          },
+          "dot": {
+            "left": 249.43612670898438,
+            "top": 229.04824829101562,
+            "width": 4,
+            "height": 4,
+            "centerX": 251.43612670898438,
+            "centerY": 231.04824829101562
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, -8.892, 8.892)",
+          "visualTransform": "none"
+        },
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 261.8138732910156,
+            "top": 223.64199829101562,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 269.2201232910156,
+            "centerY": 231.04824829101562
+          },
+          "dot": {
+            "left": 267.2201232910156,
+            "top": 229.04824829101562,
+            "width": 4,
+            "height": 4,
+            "centerX": 269.2201232910156,
+            "centerY": 231.04824829101562
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 8.892, 8.892)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board board-instant  ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-test-camera",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell board-test-page",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,438 @@
+{
+  "source": {
+    "source": "references/board.webp",
+    "sha256": "69b3137ef83efb0648818ccc3ada9946b8d2b98df1f5dd5dd85009e9e263f27a",
+    "imageWidth": 1170,
+    "imageHeight": 1560,
+    "columnEdgesPx": [
+      62,
+      174,
+      268,
+      355,
+      450,
+      591,
+      733,
+      829,
+      914,
+      997,
+      1107
+    ],
+    "rowEdgesPx": [
+      219,
+      300,
+      427,
+      558,
+      648,
+      773,
+      917,
+      1013,
+      1131,
+      1252,
+      1353
+    ],
+    "boundsPx": {
+      "left": 62,
+      "top": 219,
+      "right": 1107,
+      "bottom": 1353
+    },
+    "boundsNormalized": {
+      "left": 0.05299145299145299,
+      "top": 0.14038461538461539,
+      "right": 0.9461538461538461,
+      "bottom": 0.8673076923076923
+    },
+    "columnWidthsPx": [
+      112,
+      94,
+      87,
+      95,
+      141,
+      142,
+      96,
+      85,
+      83,
+      110
+    ],
+    "rowHeightsPx": [
+      81,
+      127,
+      131,
+      90,
+      125,
+      144,
+      96,
+      118,
+      121,
+      101
+    ],
+    "method": "Interior boundaries: peak median local bright-line contrast across the raster. Outer boundaries: peak absolute median first difference. Integer sample positions identify the strongest boundary samples; antialiasing is approximately 1–3 source pixels."
+  },
+  "sourceAndServedBoardIdentical": true,
+  "gridModel": "measured row-column edges (nonuniform)",
+  "viewports": [
+    "320x568",
+    "360x800",
+    "375x667",
+    "390x844",
+    "393x852",
+    "412x915",
+    "430x932",
+    "768x1024",
+    "1024x768",
+    "1366x768",
+    "1920x1080"
+  ],
+  "allSquareViewportCases": 1100,
+  "renderedGridLineChecks": 242,
+  "extraCases": 50,
+  "totalTokenAnchorChecks": 1162,
+  "tokenAnchorAxisAssertions": 2324,
+  "maxObservedXError": 0.015625,
+  "maxObservedYError": 0.014903846153856648,
+  "maxVisualXError": 0.015625,
+  "maxVisualYError": 0.014903846153856648,
+  "maxClusterCentroidXError": 0.0052083333333143855,
+  "maxClusterCentroidYError": 0.010416666666657193,
+  "gameplayDiagnostics": [
+    {
+      "square": 14,
+      "expectedCenter": {
+        "x": 260.3333333333333,
+        "y": 455.16666666666663
+      },
+      "actualAnchorCenter": {
+        "x": 260.328125,
+        "y": 455.15625
+      },
+      "actualVisualCenter": {
+        "x": 260.328125,
+        "y": 455.15625
+      },
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenAnchor": {
+        "left": 252.921875,
+        "top": 447.75,
+        "width": 14.8125,
+        "height": 14.8125,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokenVisual": {
+        "left": 252.921875,
+        "top": 447.75,
+        "width": 14.8125,
+        "height": 14.8125,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board   ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    },
+    {
+      "square": 74,
+      "expectedCenter": {
+        "x": 260.3333333333333,
+        "y": 222.16666666666666
+      },
+      "actualAnchorCenter": {
+        "x": 260.328125,
+        "y": 222.15625
+      },
+      "actualVisualCenter": {
+        "x": 260.328125,
+        "y": 222.15625
+      },
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenAnchor": {
+        "left": 252.921875,
+        "top": 214.75,
+        "width": 14.8125,
+        "height": 14.8125,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokenVisual": {
+        "left": 252.921875,
+        "top": 214.75,
+        "width": 14.8125,
+        "height": 14.8125,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board   ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "boardShell": {
+      "left": 0,
+      "top": 58,
+      "width": 390,
+      "height": 520,
+      "transform": "none",
+      "objectFit": "fill",
+      "padding": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(233, 200, 143)",
+      "zoom": "1"
+    },
+    "boardImage": {
+      "left": 0,
+      "top": 58,
+      "width": 390,
+      "height": 520,
+      "transform": "none",
+      "objectFit": "fill",
+      "padding": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(233, 200, 143)",
+      "zoom": "1"
+    },
+    "tokenPosition": {
+      "left": 247.3125,
+      "top": 452.625,
+      "width": 0,
+      "height": 0,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "objectFit": "fill",
+      "padding": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(233, 200, 143)",
+      "zoom": "1"
+    },
+    "tokenCluster": {
+      "left": 240.29249572753906,
+      "top": 445.6050109863281,
+      "width": 0,
+      "height": 0,
+      "transform": "matrix(1, 0, 0, 1, -7.02, -7.02)",
+      "objectFit": "fill",
+      "padding": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(233, 200, 143)",
+      "zoom": "1"
+    },
+    "tokenAnchor": {
+      "left": 232.88624572753906,
+      "top": 438.1987609863281,
+      "width": 14.8125,
+      "height": 14.8125,
+      "transform": "none",
+      "objectFit": "fill",
+      "padding": "0px",
+      "margin": "0px",
+      "border": "0px none rgb(233, 200, 143)",
+      "zoom": "1"
+    },
+    "tokenVisual": {
+      "left": 232.88624572753906,
+      "top": 438.1987609863281,
+      "width": 14.8125,
+      "height": 14.8125,
+      "transform": "none",
+      "objectFit": "fill",
+      "padding": "0px",
+      "margin": "0px",
+      "border": "2px solid rgb(248, 221, 164)",
+      "zoom": "1"
+    },
+    "ancestors": [
+      {
+        "tag": "IMG",
+        "class": "board-art",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      },
+      {
+        "tag": "DIV",
+        "class": "board  ",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      },
+      {
+        "tag": "SECTION",
+        "class": "board-section",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      },
+      {
+        "tag": "DIV",
+        "class": "game-layout",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      },
+      {
+        "tag": "MAIN",
+        "class": "game-shell",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      },
+      {
+        "tag": "BODY",
+        "class": "game-active",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      },
+      {
+        "tag": "HTML",
+        "class": "",
+        "transform": "none",
+        "zoom": "1",
+        "perspective": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "dragon-ladder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:geometry": "playwright test --config playwright.geometry.config.ts",
+    "measure:board": "python scripts/measure-board-grid.py",
+    "report:board": "node scripts/summarize-board-geometry.mjs",
+    "test:mobile": "playwright test --config playwright.mobile.config.ts"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "motion": "^12.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

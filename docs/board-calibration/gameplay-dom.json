@@ -1,0 +1,252 @@
+[
+  {
+    "expectedX": 260.3333333333333,
+    "expectedY": 455.16666666666663,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666628771,
+    "geometry": {
+      "square": 14,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 455.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 455.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 447.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 453.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 455.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board   ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  },
+  {
+    "expectedX": 260.3333333333333,
+    "expectedY": 222.16666666666666,
+    "maxX": 0.0052083333333143855,
+    "maxY": 0.010416666666657193,
+    "geometry": {
+      "square": 74,
+      "boardShell": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "boardImage": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "tokenLayer": {
+        "left": 0,
+        "top": 58,
+        "width": 390,
+        "height": 520,
+        "centerX": 195,
+        "centerY": 318
+      },
+      "debugCenter": {
+        "left": 260.328125,
+        "top": 222.15625,
+        "width": 0,
+        "height": 0,
+        "centerX": 260.328125,
+        "centerY": 222.15625
+      },
+      "tokens": [
+        {
+          "anchor": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "visual": {
+            "left": 252.921875,
+            "top": 214.75,
+            "width": 14.8125,
+            "height": 14.8125,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "dot": {
+            "left": 258.328125,
+            "top": 220.15625,
+            "width": 4,
+            "height": 4,
+            "centerX": 260.328125,
+            "centerY": 222.15625
+          },
+          "anchorInlineTransform": "",
+          "anchorComputedTransform": "matrix(1, 0, 0, 1, -7.40625, -7.40625)",
+          "clusterTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "visualTransform": "none"
+        }
+      ],
+      "imageStyle": {
+        "objectFit": "fill",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(233, 200, 143)",
+        "maxHeight": "none",
+        "maxWidth": "none"
+      },
+      "ancestors": [
+        {
+          "tag": "DIV",
+          "class": "board   ",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "SECTION",
+          "class": "board-section",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "game-layout",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "MAIN",
+          "class": "game-shell",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "BODY",
+          "class": "game-active",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        },
+        {
+          "tag": "HTML",
+          "class": "",
+          "transform": "none",
+          "zoom": "1",
+          "perspective": "none"
+        }
+      ]
+    }
+  }
+]
