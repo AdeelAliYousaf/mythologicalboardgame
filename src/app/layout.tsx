@@ -4,7 +4,13 @@ import './board.css';
 import './mobile-game.css';
 const pageTitle = 'Welcome to Norse Mythology redesign of snake & ladder board game.';
 const pageDescription = 'Enter a beautifully redesigned Norse mythology version of the classic Snake & Ladder board game. Play with dragons, ladders, heroes, and fate for two to four players.';
-const socialImage = { url: '/assets/og-graph.png', width: 1200, height: 630, alt: 'Welcome to Norse Mythology redesign of snake & ladder board game.' };
+const socialImage = {
+  url: 'https://norsemythology.vercel.app/assets/og-graph.png',
+  width: 1448,
+  height: 1086,
+  type: 'image/png',
+  alt: 'Welcome to Norse Mythology redesign of snake & ladder board game.',
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://norsemythology.vercel.app'),
