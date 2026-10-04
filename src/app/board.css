@@ -31,7 +31,7 @@
   width: var(--token-size);
   height: var(--token-size);
   transform: translate(-50%, -50%);
-  transition: left .24s cubic-bezier(.22, 1, .36, 1), top .24s cubic-bezier(.22, 1, .36, 1);
+  transition: left .16s linear, top .16s linear;
 }
 .token-cluster {
   width: 100%;

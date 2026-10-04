@@ -1,9 +1,12 @@
 import { dragonDeck, dragonEncounters, getSquareEffect, getBoardCell, getSquareAtBoardCell, heroSpaces, ladders, type Hero } from '../rules/boardConfig';
 export type Phase = 'roll' | 'choose' | 'moving' | 'fate' | 'climbing' | 'dragon' | 'hero' | 'victory';
-export type Player = { id: number; name: string; position: number; fate: number; heroes: Hero[]; frexiaUsed: boolean };
+export type PlayerController = 'human' | 'ai';
+export type AIDifficulty = 'easy' | 'normal' | 'hard';
+export type Player = { id: number; name: string; position: number; fate: number; heroes: Hero[]; frexiaUsed: boolean; controller: PlayerController; difficulty: AIDifficulty };
 export type SpecialTile = 'LADDER_START' | 'DRAGON' | 'HERO' | null;
 export type GameState = { players: Player[]; turn: number; phase: Phase; dice: [number, number] | null; chosen: number | null; movementTarget: number | null; movementStart: number | null; traversedCells: number[]; finalRolledCell: number | null; specialTileDetected: SpecialTile; dragonIndex: number; encounter: number | null; missedLadder: number | null; escapedDragonSquare: number | null; history: string[]; winner: number | null; finishOrder: number[] };
-export function newGame(names: string[]): GameState { if (names.length < 2 || names.length > 4) throw Error('Two to four players required'); return { players: names.map((name,id) => ({ id, name: name.trim() || `Player ${id + 1}`, position: 1, fate: 3, heroes: [], frexiaUsed: false })), turn: 0, phase: 'roll', dice: null, chosen: null, movementTarget:null, movementStart:null, traversedCells: [], finalRolledCell: null, specialTileDetected: null, dragonIndex: 0, encounter: null, missedLadder: null, escapedDragonSquare: null, history: [], winner: null, finishOrder: [] }; }
+export type PlayerSetup = { name: string; controller?: PlayerController; difficulty?: AIDifficulty };
+export function newGame(players: (string | PlayerSetup)[]): GameState { if (players.length < 2 || players.length > 4) throw Error('Two to four players required'); return { players: players.map((entry,id) => { const setup=typeof entry==='string'?{name:entry}:entry; return { id, name: setup.name.trim() || `Player ${id + 1}`, position: 1, fate: 3, heroes: [], frexiaUsed: false, controller: setup.controller??'human', difficulty: setup.difficulty??'normal' }; }), turn: 0, phase: 'roll', dice: null, chosen: null, movementTarget:null, movementStart:null, traversedCells: [], finalRolledCell: null, specialTileDetected: null, dragonIndex: 0, encounter: null, missedLadder: null, escapedDragonSquare: null, history: [], winner: null, finishOrder: [] }; }
 const log = (s: GameState, message: string): GameState => ({ ...s, history: [message, ...s.history].slice(0, 30) });
 const replacePlayer = (s: GameState, id: number, change: Partial<Player>): GameState => ({...s, players: s.players.map(p => p.id === id ? {...p,...change} : p)});
 export function roll(s: GameState, dice: [number, number]): GameState { if (s.phase !== 'roll' || isFinished(s,s.players[s.turn].id) || dice.some(d => d < 1 || d > 6 || !Number.isInteger(d))) return s; return log({...s, dice, phase: 'choose'}, `${s.players[s.turn].name} rolled ${dice[0]} and ${dice[1]}.`); }
@@ -76,7 +79,7 @@ export function deserialize(raw: string): GameState | null {
  try {
   const parsed: unknown=JSON.parse(raw);
   if(!parsed || typeof parsed!=='object' || !('players' in parsed) || !Array.isArray(parsed.players) || parsed.players.length<2 || parsed.players.length>4) return null;
-  const saved=parsed as Partial<GameState>, players=saved.players!;
+  const saved=parsed as Partial<GameState>, players=saved.players!.map((player)=>({...player,controller:player.controller??'human',difficulty:player.difficulty??'normal'}));
   const supplied=Array.isArray(saved.finishOrder)?saved.finishOrder:[];
   const finishOrder=[...new Set(supplied.filter(id=>players.some(player=>player.id===id && player.position===100)))];
   // Preserve legacy winner first; older saves only recorded the first finisher.
