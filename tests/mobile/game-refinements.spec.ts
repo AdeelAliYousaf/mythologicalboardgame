@@ -34,7 +34,14 @@ for (const viewport of [{ width: 320, height: 568 }, { width: 390, height: 844 }
   await page.screenshot({ path: `test-results/refined-roll-${viewport.width}.png` });
   await button.click(); await expect(page.getByRole('heading', { name: 'Choose your fate' })).toBeVisible();
   await expect(page.getByRole('button', { name: /Choose die showing/ }).first()).toBeInViewport();
+  const afterRoll = await page.locator('.board-art').boundingBox();
+  expect(afterRoll!.y).toBeCloseTo(geometry.image.y, 0);
+  expect(afterRoll!.height).toBeCloseTo(geometry.image.height, 0);
   await page.screenshot({ path: `test-results/refined-dice-${viewport.width}.png` });
+  await page.getByRole('button', { name: /Choose die showing/ }).first().click();
+  const afterChoice = await page.locator('.board-art').boundingBox();
+  expect(afterChoice!.y).toBeCloseTo(geometry.image.y, 0);
+  expect(afterChoice!.height).toBeCloseTo(geometry.image.height, 0);
  });
 }
 for (const [square, hero] of [[9, 'Thor'], [54, 'Frexia'], [71, 'Loki']] as const) {
