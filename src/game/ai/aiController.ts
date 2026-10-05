@@ -1,5 +1,5 @@
 import { dragonDeck, dragonEncounters, type Hero } from '../rules/boardConfig';
-import { choose, gainHero, ignoreDragon, reroll, roll, sufferDragon, stealHero, type GameState, type Player } from '../engine/game';
+import { choose, decideMissedLadder, gainHero, ignoreDragon, reroll, roll, sufferDragon, stealHero, type GameState, type Player } from '../engine/game';
 import { evaluateDice, evaluateMove } from './evaluateMove';
 import { getOpponentThreat } from './opponentThreat';
 import type { AIAction, MoveEvaluation } from './types';
@@ -48,6 +48,7 @@ export function nextAIAction(state: GameState, _diceRoll: [number,number]): AIAc
     return {type:'choose',index:chooseDie(state,state.dice)};
   }
   if(state.phase==='climbing')return null;
+  if(state.phase==='ladder-choice')return {type:'ladder-fate'};
   if(state.phase==='dragon'){
     const escape=shouldIgnoreDragon(state); if(escape)return {type:escape==='fate'?'dragon-fate':'dragon-frexia'};
     const target=player.heroes.includes('loki')?chooseLokiTarget(state):undefined;
@@ -64,7 +65,7 @@ export function dispatchAIAction(state: GameState, action: AIAction, dice: [numb
     case 'roll': return roll(state,dice);
     case 'reroll': return reroll(state,dice);
     case 'choose': return choose(state,action.index);
-    case 'ladder-fate': return choose(state,0); // ladder climbing is automatic; this action is only a phase marker.
+    case 'ladder-fate': return decideMissedLadder(state,true);
     case 'dragon-fate': return ignoreDragon(state,'fate');
     case 'dragon-frexia': return ignoreDragon(state,'frexia');
     case 'dragon-face': return sufferDragon(state,action.targetId);

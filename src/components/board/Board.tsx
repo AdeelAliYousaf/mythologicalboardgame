@@ -15,15 +15,18 @@ export type BoardProps = {
   visualPositions: Record<number, number>;
   visualCoordinates: Record<number, { x: number; y: number }>;
   ladderActive: number | null;
+  ladderLanding?: number | null;
   dragonFlying: boolean;
   clusteringEnabled?: boolean;
   instantPositioning?: boolean;
   visualScale?: number;
 };
 
-export function Board({ game, debug, visualPositions, visualCoordinates, ladderActive, dragonFlying, clusteringEnabled = !debug, instantPositioning = false, visualScale = 1 }: BoardProps) {
+export function Board({ game, debug, visualPositions, visualCoordinates, ladderActive, ladderLanding = null, dragonFlying, clusteringEnabled = !debug, instantPositioning = false, visualScale = 1 }: BoardProps) {
   const boardRef = useRef<HTMLDivElement>(null);
   const activePlayer = game.players[game.turn];
+  const tokenSquare = (player: GameState['players'][number]) =>
+    game.phase === 'climbing' && game.turn === player.id ? player.position : visualPositions[player.id] ?? player.position;
   const activeSquare = visualPositions[activePlayer.id] ?? activePlayer.position;
   const dragonOrigin = getCellCenter(activeSquare);
   return <div ref={boardRef} className={`board ${instantPositioning ? 'board-instant' : ''} ${dragonFlying ? 'board-shake' : ''} ${game.phase === 'victory' ? 'board-victory' : ''}`} aria-label="Dragon Ladder board, squares 1 through 100">
@@ -32,14 +35,14 @@ export function Board({ game, debug, visualPositions, visualCoordinates, ladderA
       {ladderActive !== null && <svg className="ladder-glow" viewBox="0 0 100 100" preserveAspectRatio="none">
         <line className="ladder-glow-aura" x1={getCellCenter(ladderActive).x} y1={getCellCenter(ladderActive).y} x2={getCellCenter(ladders[ladderActive]).x} y2={getCellCenter(ladders[ladderActive]).y} />
         <line className="ladder-glow-body" x1={getCellCenter(ladderActive).x} y1={getCellCenter(ladderActive).y} x2={getCellCenter(ladders[ladderActive]).x} y2={getCellCenter(ladders[ladderActive]).y} />
-        <line className="ladder-glow-shimmer" x1={getCellCenter(ladderActive).x} y1={getCellCenter(ladderActive).y} x2={getCellCenter(ladders[ladderActive]).x} y2={getCellCenter(ladders[ladderActive]).y} />
       </svg>}
     </div>
     <div className="board-token-layer">
+      {ladderLanding !== null && <span className="ladder-landing" aria-hidden="true" style={{ left: `${getCellCenter(ladderLanding).x}%`, top: `${getCellCenter(ladderLanding).y}%` }} />}
       {game.players.map(player => {
-        const square = visualPositions[player.id] ?? player.position;
+        const square = tokenSquare(player);
         const center = visualCoordinates[player.id] ?? getCellCenter(square);
-        const sharing = game.players.filter(other => (visualPositions[other.id] ?? other.position) === square);
+        const sharing = game.players.filter(other => tokenSquare(other) === square);
         const index = sharing.findIndex(other => other.id === player.id);
         const offset = clusteringEnabled ? getTokenClusterOffsets(sharing.length)[index] : { x: 0, y: 0 };
         return <div key={player.id} className="token-anchor" data-player-id={player.id} data-square={square} style={{ left: `${center.x}%`, top: `${center.y}%` }}>

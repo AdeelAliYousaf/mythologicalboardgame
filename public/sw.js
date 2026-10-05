@@ -1,10 +1,10 @@
-const CACHE = 'dragon-ladder-v9-credits';
-const CORE = ["/", "/Music/GameTheme.mp3", "/Music/credits.mp3", "/VoiceOvers/aivictory.mp3", "/VoiceOvers/facedragon.mp3", "/VoiceOvers/fateusage.mp3", "/VoiceOvers/firstvictory.mp3", "/VoiceOvers/secondvictory.mp3", "/VoiceOvers/thirdvictory.mp3", "/VoiceOvers/Frexia-Bypassing.mp3", "/VoiceOvers/Frexia-DragonEncounter.mp3", "/VoiceOvers/Frexia-PowerActivated.mp3", "/VoiceOvers/Frexia-Victory.mp3", "/VoiceOvers/Frexia.mp3", "/VoiceOvers/Loki-PowerActivated.mp3", "/VoiceOvers/Loki-Victory.mp3", "/VoiceOvers/Loki.mp3", "/VoiceOvers/Thor-PowerActivated.mp3", "/VoiceOvers/Thor-Victory.mp3", "/VoiceOvers/Thor.mp3", "/VoiceOvers/dragon.mp3", "/assets/board.webp", "/assets/complete-concept.webp", "/assets/derived/dragon-beast.webp", "/assets/derived/dragon-flight-0.png", "/assets/derived/dragon-flight-1.png", "/assets/derived/dragon-flight-2.png", "/assets/derived/dragon-flight-3.png", "/assets/derived/dragon-serpent.webp", "/assets/derived/dragon-spiral.webp", "/assets/derived/dragon-wing.webp", "/assets/derived/frexia.webp", "/assets/derived/loki.webp", "/assets/derived/penalty-17.webp", "/assets/derived/penalty-20.webp", "/assets/derived/penalty-26.webp", "/assets/derived/penalty-35.webp", "/assets/derived/thor.webp", "/assets/dragon-cards.webp", "/assets/hero-cards.webp", "/assets/og-graph.png", "/assets/pinkribbon.png", "/assets/rules.webp", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
+const CACHE = 'dragon-ladder-v12-artist-credit';
+const CORE = ['/assets/she-is-precious.png', '/assets/fonts/cinzel/Cinzel-Regular.otf', '/assets/fonts/cinzel/Cinzel-Bold.otf', '/VoiceOvers/laddermissclimb.mp3', "/", "/Music/GameTheme.mp3", "/Music/credits.mp3", "/VoiceOvers/aivictory.mp3", "/VoiceOvers/facedragon.mp3", "/VoiceOvers/fateusage.mp3", "/VoiceOvers/firstvictory.mp3", "/VoiceOvers/secondvictory.mp3", "/VoiceOvers/thirdvictory.mp3", "/VoiceOvers/Frexia-Bypassing.mp3", "/VoiceOvers/Frexia-DragonEncounter.mp3", "/VoiceOvers/Frexia-PowerActivated.mp3", "/VoiceOvers/Frexia-Victory.mp3", "/VoiceOvers/Frexia.mp3", "/VoiceOvers/Loki-PowerActivated.mp3", "/VoiceOvers/Loki-Victory.mp3", "/VoiceOvers/Loki.mp3", "/VoiceOvers/Thor-PowerActivated.mp3", "/VoiceOvers/Thor-Victory.mp3", "/VoiceOvers/Thor.mp3", "/VoiceOvers/dragon.mp3", "/assets/board.webp", "/assets/complete-concept.webp", "/assets/derived/dragon-beast.webp", "/assets/derived/dragon-flight-0.png", "/assets/derived/dragon-flight-1.png", "/assets/derived/dragon-flight-2.png", "/assets/derived/dragon-flight-3.png", "/assets/derived/dragon-serpent.webp", "/assets/derived/dragon-spiral.webp", "/assets/derived/dragon-wing.webp", "/assets/derived/frexia.webp", "/assets/derived/loki.webp", "/assets/derived/penalty-17.webp", "/assets/derived/penalty-20.webp", "/assets/derived/penalty-26.webp", "/assets/derived/penalty-35.webp", "/assets/derived/thor.webp", "/assets/dragon-cards.webp", "/assets/hero-cards.webp", "/assets/og-graph.png", "/assets/pinkribbon.png", "/assets/rules.webp", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    await cache.addAll(CORE);
+    await Promise.allSettled(CORE.map(path => cache.add(new Request(path, { cache: 'reload' }))));
     // The home document names the build's JavaScript and CSS entry files.
     const home = await cache.match('/');
     if (home) {
@@ -29,8 +29,18 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
+  if (url.pathname === '/sw.js') return;
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
+    if (event.request.mode === 'navigate' || event.request.destination === 'document') {
+      try {
+        const response = await fetch(event.request, { cache: 'no-store' });
+        if (response.ok) await cache.put(event.request, response.clone());
+        return response;
+      } catch {
+        return (await cache.match(event.request)) || (await cache.match('/')) || Response.error();
+      }
+    }
     const cached = await cache.match(event.request);
     if (cached) return cached;
     try {

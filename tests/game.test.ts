@@ -1,6 +1,6 @@
 import { describe,it,expect } from 'vitest';
 import { BOARD, BOARD_GRID_BOUNDS, getBoardCell, getCellCenter, getSquareAtBoardCell, indexToSquare, ladders, squareToIndex } from '../src/game/rules/boardConfig';
-import { choose, climb, deserialize, gainHero, ignoreDragon, moveStep, newGame, reroll, resolveLanding, roll, serialize, stealHero, sufferDragon } from '../src/game/engine/game';
+import { choose, climb, decideMissedLadder, deserialize, gainHero, ignoreDragon, moveStep, newGame, reroll, resolveLanding, roll, serialize, stealHero, sufferDragon } from '../src/game/engine/game';
 describe('board',()=>{it('snakes through rows',()=>{expect(getCellCenter(1).x).toBeLessThan(getCellCenter(10).x);expect(getCellCenter(11).x).toBeGreaterThan(getCellCenter(20).x);expect(getCellCenter(100).y).toBeLessThan(getCellCenter(1).y)});it('uses measured inner grid bounds for cell centers',()=>{for(let square=1;square<=100;square++){const position=getCellCenter(square);expect(position.x).toBeGreaterThan(BOARD_GRID_BOUNDS.left);expect(position.x).toBeLessThan(BOARD_GRID_BOUNDS.right);expect(position.y).toBeGreaterThan(BOARD_GRID_BOUNDS.top);expect(position.y).toBeLessThan(BOARD_GRID_BOUNDS.bottom);}});it('maps every visible square to itself without an index shift',()=>{for(let square=1;square<=100;square++){expect(indexToSquare(squareToIndex(square))).toBe(square);expect(getSquareAtBoardCell(getBoardCell(square))).toBe(square);const position=getCellCenter(square);expect(position.x).toBeGreaterThan(BOARD.left);expect(position.y).toBeGreaterThan(BOARD.top);}});it('maps every printed ladder endpoint',()=>{expect(ladders).toEqual({8:34,17:36,22:58,46:85,50:70,79:98});});});
 describe('game',()=>{it('rolls, selects and walks one square per step',()=>{let s=newGame(['A','B']);s=choose(roll(s,[2,5]),0);expect(s.phase).toBe('moving');s=moveStep(s);expect(s.players[0].position).toBe(2);s=moveStep(s);expect(s.players[0].position).toBe(3);expect(s.phase).toBe('fate')});it('keeps landing square 8 aligned with ladder detection',()=>{let s=newGame(['A','B']);s.players[0].position=5;s=choose(roll(s,[3,1]),0);s=moveStep(s);s=moveStep(s);s=moveStep(s);expect(s.traversedCells).toEqual([6,7,8]);expect(s.finalRolledCell).toBe(8);expect(s.players[0].position).toBe(8);expect(s.specialTileDetected).toBe('LADDER_START');expect(s.missedLadder).toBeNull();expect(resolveLanding(s).phase).toBe('climbing')});it('wins with an exact roll to 100',()=>{let s=newGame(['A','B']);s.players[0].position=98;s=choose(roll(s,[2,1]),0);s=moveStep(s);s=moveStep(s);expect(s.phase).toBe('victory');expect(s.players[0].position).toBe(100)});it('spends Fate for reroll',()=>{let s=roll(newGame(['A','B']),[1,2]);s=reroll(s,[3,4]);expect(s.players[0].fate).toBe(2);expect(s.dice).toEqual([3,4])});it('floors Dragon penalty at square 1',()=>{let s=newGame(['A','B']);s.players[0].position=4;s=resolveLanding({...s,phase:'fate'});s=sufferDragon(s);expect(s.players[0].position).toBe(1)});it('ignores Dragon with Fate or Frexia',()=>{let s=newGame(['A','B']);s.players[0].position=4;s=resolveLanding({...s,phase:'fate'});expect(ignoreDragon(s,'fate').players[0].fate).toBe(2);s.players[0].heroes=['frexia'];expect(ignoreDragon(s,'frexia').players[0].frexiaUsed).toBe(true)});it('gains heroes and steals with Thor',()=>{let s=newGame(['A','B']);s.players[0].position=9;s=gainHero({...s,phase:'hero'});expect(s.players[0].heroes).toContain('thor');s.players[1].heroes=['loki'];s.turn=0;s=stealHero(s,1,'loki');expect(s.players[0].heroes).toContain('loki');expect(s.players[1].heroes).toEqual([])});it('applies Loki to a second player',()=>{let s=newGame(['A','B']);s.players[0].position=52;s.players[0].heroes=['loki'];s.players[1].position=50;s=resolveLanding({...s,phase:'fate'});s=sufferDragon(s,1);expect(s.players[1].position).toBe(15)});it('climbs ladders',()=>{let s=newGame(['A','B']);s.players[0].position=17;s=resolveLanding({...s,phase:'fate'});s=climb(s);expect(s.players[0].position).toBe(36)});it('round trips a save',()=>{const s=newGame(['A','B']);expect(deserialize(serialize(s))).toEqual(s)})});
 describe('player counts',()=>{
@@ -26,14 +26,22 @@ describe('dragon escape at Asgard gate',()=>{
  });
 });
 describe('ladder entry',()=>{
- it('does not offer a climb after passing an entry',()=>{
+ it('offers Fate to catch a passed ladder, or continue',()=>{
   let s=newGame(['A','B']);
   s.players[0].position=7;
   s=choose(roll(s,[3,1]),0);
   s=moveStep(s);s=moveStep(s);s=moveStep(s);
-  expect(s.missedLadder).toBeNull();
+  expect(s.missedLadder).toBe(8);
+  expect(s.phase).toBe('ladder-choice');
   expect(s.players[0].position).toBe(10);
-  expect(climb(s,true)).toEqual(s);
+  const continued=decideMissedLadder(s,false);
+  expect(continued.phase).toBe('fate');
+  expect(continued.players[0].fate).toBe(3);
+  const caught=decideMissedLadder(s,true);
+  expect(caught.phase).toBe('climbing');
+  expect(caught.players[0].position).toBe(8);
+  expect(caught.players[0].fate).toBe(2);
+  expect(climb(caught).players[0].position).toBe(34);
  });
 });
 

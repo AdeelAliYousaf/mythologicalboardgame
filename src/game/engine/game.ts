@@ -1,5 +1,5 @@
 import { dragonDeck, dragonEncounters, getSquareEffect, getBoardCell, getSquareAtBoardCell, heroSpaces, ladders, type Hero } from '../rules/boardConfig';
-export type Phase = 'roll' | 'choose' | 'moving' | 'fate' | 'climbing' | 'dragon' | 'hero' | 'victory';
+export type Phase = 'roll' | 'choose' | 'moving' | 'ladder-choice' | 'fate' | 'climbing' | 'dragon' | 'hero' | 'victory';
 export type PlayerController = 'human' | 'ai';
 export type AIDifficulty = 'easy' | 'normal' | 'hard';
 export type Player = { id: number; name: string; position: number; fate: number; heroes: Hero[]; frexiaUsed: boolean; controller: PlayerController; difficulty: AIDifficulty };
@@ -33,7 +33,8 @@ export function moveStep(s: GameState): GameState {
  const effect=getSquareEffect(destination);
  const specialTileDetected: SpecialTile = effect.kind==='ladder'?'LADDER_START':effect.kind==='dragon'?'DRAGON':effect.kind==='hero'?'HERO':null;
  if (process.env.NODE_ENV !== 'test') console.table({logicalPosition: nextSquare, visualSquare: nextSquare, finalRolledCell: destination, renderedCell: getSquareAtBoardCell(getBoardCell(nextSquare)), specialTileDetected});
- const landed={...next,finalRolledCell:destination,specialTileDetected,phase:'fate' as const,missedLadder:null};
+ const missedLadder=p.fate>0 && effect.kind!=='ladder' && effect.kind!=='finish' ? Object.keys(ladders).map(Number).filter(square=>square> (s.movementStart??p.position) && square<destination).at(-1)??null : null;
+ const landed={...next,finalRolledCell:destination,specialTileDetected,phase:missedLadder===null?'fate' as const:'ladder-choice' as const,missedLadder};
  return destination===100?recordFinish(landed):landed;
 }
 export function isFinished(s: GameState, playerId: number) { return s.finishOrder.includes(playerId); }
@@ -62,6 +63,15 @@ export function resolveLanding(s: GameState): GameState {
  if(effect.kind==='dragon') return {...s,phase:'dragon',specialTileDetected:'DRAGON',encounter:effect.cardId,missedLadder:null};
  if(effect.kind==='hero') return {...s,phase:'hero',specialTileDetected:'HERO',missedLadder:null};
  return advanceTurn(log(s,`${player.name} reached square ${player.position}.`));
+}
+export function decideMissedLadder(s: GameState, spend: boolean): GameState {
+ if(s.phase!=='ladder-choice') return s;
+ const player=s.players[s.turn], entrance=s.missedLadder;
+ if(spend && entrance!==null && ladders[entrance]!==undefined && player.fate>0){
+  const next=replacePlayer(s,player.id,{position:entrance,fate:player.fate-1});
+  return log({...next,phase:'climbing',missedLadder:null,specialTileDetected:'LADDER_START'},`${player.name} spent 1 Fate to catch the ladder at square ${entrance}.`);
+ }
+ return {...s,phase:'fate',missedLadder:null};
 }
 export function climb(s: GameState, spend=false): GameState {
  // Kept as a guarded engine transition; the UI initiates it automatically.

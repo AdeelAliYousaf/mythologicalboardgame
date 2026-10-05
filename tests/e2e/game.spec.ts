@@ -58,14 +58,15 @@ test('ladder climbs automatically',async({page})=>{
  await expect(page.getByRole('button',{name:'Climb the ladder'})).toHaveCount(0);
  await expect(page.getByLabel('Adeel on square 36')).toBeVisible({timeout:10000});
 });
-test('does not offer a climb after passing a ladder',async({page})=>{
- const missed=newGame(['Adeel','Eman']);missed.players[0].position=10;missed.phase='fate';missed.missedLadder=8;
- await page.addInitScript(value=>localStorage.setItem('dragon-ladder-v1',value),JSON.stringify(missed));
+test('offers Fate to catch a passed ladder',async({page})=>{
+ const missed=newGame(['Adeel','Eman']);missed.players[0].position=10;missed.phase='ladder-choice';missed.missedLadder=8;
  await page.goto('/',{waitUntil:'domcontentloaded'});
+ await page.evaluate(value=>localStorage.setItem('dragon-ladder-v1',value),JSON.stringify(missed));
+ await page.reload({waitUntil:'domcontentloaded'});
  await page.getByRole('button',{name:'Continue journey'}).click();
- await expect(page.getByText('Square 10 of 100')).toBeVisible();
- await expect(page.getByRole('button',{name:'Spend Fate to climb'})).toHaveCount(0);
- await expect(page.getByText('A ladder passed')).toHaveCount(0);
+ await expect(page.getByRole('button',{name:/Catch the ladder/})).toBeVisible();
+ await page.getByRole('button',{name:/Catch the ladder/}).click();
+ await expect(page.getByLabel('Adeel on square 34')).toBeVisible({timeout:10000});
 });
 test('Dragon reveals printed penalty and moves backward',async({page})=>{
  const state=newGame(['Adeel','Eman']);state.players[0].position=52;state.phase='dragon';state.encounter=0;
