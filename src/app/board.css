@@ -36,10 +36,19 @@
 .token-anchor.token-ladder-moving { transition: none; z-index: 10; will-change: transform; }
 .token-ladder-moving .token-visual { filter: drop-shadow(0 0 6px #ffe29a); }
 .token-ladder-moving .token-visual::after { content: ''; position: absolute; inset: 45% 20% -80%; border-radius: 50%; background: radial-gradient(ellipse, #ffe6a388, transparent 70%); z-index: -1; pointer-events: none; animation: ladder-trail .23s ease-out infinite alternate; }
+.ladder-ios-glow { display: none; }
+@supports (-webkit-touch-callout: none) {
+  .ladder-glow { display: none; }
+  .ladder-ios-glow { display: block; position: absolute; width: calc(var(--token-size) * 3); height: calc(var(--token-size) * 3); border-radius: 50%; background: radial-gradient(circle, #ffe4a57a, #ffbb4830 42%, transparent 72%); transform: translate(-50%,-50%); animation: ladder-ios-pulse 1s ease-in-out infinite alternate; }
+  .ladder-ios-glow-top { animation-delay: -.45s; }
+  .token-ladder-moving .token-visual::after { display: none; }
+}
+@keyframes ladder-ios-pulse { from { opacity: .45; transform: translate(-50%,-50%) scale(.82); } to { opacity: .9; transform: translate(-50%,-50%) scale(1.12); } }
 .ladder-landing { position: absolute; width: calc(var(--token-size) * 2.5); height: calc(var(--token-size) * 2.5); border: 2px solid #ffe6a3; border-radius: 50%; transform: translate(-50%, -50%) scale(.4); box-shadow: 0 0 14px #ffdb80; pointer-events: none; animation: ladder-land .55s ease-out forwards; }
 .ladder-choice { display: grid; gap: 8px; justify-items: stretch; }
 .ladder-choice h3,.ladder-choice p { margin: 0; }
 .ladder-choice .choice-card { width: 100%; margin: 0; }
+.ladder-continue { width: 100%; min-height: 54px; border: 1px solid #a77f486e; border-radius: 4px; background: #1d2b24; box-shadow: none; color: #e7cfaa; }
 @media(max-width:760px),(max-width:900px) and (orientation:landscape) { body.game-active .phase-ladder-choice .actions { justify-content: flex-start; } }
 .begin-journey b svg,.continue-journey b svg,.story-return svg,.artist-link svg { width: 1.2em; height: 1.2em; vertical-align: -.2em; }
 @keyframes ladder-trail { from { opacity: .25; transform: translateY(0) scale(.6); } to { opacity: .8; transform: translateY(7px) scale(1); } }

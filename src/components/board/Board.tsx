@@ -36,6 +36,10 @@ export function Board({ game, debug, visualPositions, visualCoordinates, ladderA
         <line className="ladder-glow-aura" x1={getCellCenter(ladderActive).x} y1={getCellCenter(ladderActive).y} x2={getCellCenter(ladders[ladderActive]).x} y2={getCellCenter(ladders[ladderActive]).y} />
         <line className="ladder-glow-body" x1={getCellCenter(ladderActive).x} y1={getCellCenter(ladderActive).y} x2={getCellCenter(ladders[ladderActive]).x} y2={getCellCenter(ladders[ladderActive]).y} />
       </svg>}
+      {ladderActive !== null && <>
+        <span className="ladder-ios-glow" style={{ left: `${getCellCenter(ladderActive).x}%`, top: `${getCellCenter(ladderActive).y}%` }} />
+        <span className="ladder-ios-glow ladder-ios-glow-top" style={{ left: `${getCellCenter(ladders[ladderActive]).x}%`, top: `${getCellCenter(ladders[ladderActive]).y}%` }} />
+      </>}
     </div>
     <div className="board-token-layer">
       {ladderLanding !== null && <span className="ladder-landing" aria-hidden="true" style={{ left: `${getCellCenter(ladderLanding).x}%`, top: `${getCellCenter(ladderLanding).y}%` }} />}
